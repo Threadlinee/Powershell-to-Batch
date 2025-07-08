@@ -16,7 +16,7 @@ def convert_ps_to_bat(ps_code):
             "> \"%psScript%\" ("
         ]
         for line in ps_code.strip().splitlines():
-            line = line.replace("%", "%%")  # Escape % for batch
+            line = line.replace("%", "%%") 
             bat_lines.append(f"    echo {line}")
         bat_lines += [
             ")",
