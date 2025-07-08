@@ -5,7 +5,6 @@ import pyperclip
 import time
 from threading import Thread
 
-# Check if PS code is multiline
 def is_multiline(code):
     return "\n" in code.strip() or ";" in code
 
