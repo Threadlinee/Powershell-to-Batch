@@ -27,7 +27,13 @@ pip install -r requirements.txt
 The app checks if your PS code is multiline or single-line, formats it accordingly for batch execution, and wraps it in a temporary .ps1 file (for complex payloads). It handles percent signs, quotes, and even shows you the final result with animation like a boss.
 
 📸 Screenshot
-<!-- Add a real screenshot later -->
+
+![image](https://github.com/user-attachments/assets/4f63acd3-e709-40f1-8d84-9941a8f79b78)
+
+![image](https://github.com/user-attachments/assets/cd5514f9-b464-4ee8-9edb-7e5acc34b987)
+
+![image](https://github.com/user-attachments/assets/be7f7bf2-7bc2-43d9-aa25-ead5211e99c1)
+
 
 👑 Author
 ## Threadlinee
