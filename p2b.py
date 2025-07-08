@@ -8,7 +8,6 @@ from threading import Thread
 def is_multiline(code):
     return "\n" in code.strip() or ";" in code
 
-# Convert PS code to bat code
 def convert_ps_to_bat(ps_code):
     if is_multiline(ps_code):
         bat_lines = [
