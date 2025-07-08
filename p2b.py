@@ -130,7 +130,6 @@ save_btn.pack(side=tk.RIGHT, padx=6)
 bat_output = scrolledtext.ScrolledText(output_frame, height=12, bg="#1a1a2e", fg="#00ffff", insertbackground="white", font=("Consolas", 12, "bold"), bd=3, relief=tk.FLAT)
 bat_output.pack(fill=tk.BOTH, expand=True)
 
-# Footer
 footer = tk.Label(app, text="made by 540sno 🧠 drag & drop .ps1 supported", bg="#000010", fg="#888888", font=("Orbitron", 10))
 footer.pack(side=tk.BOTTOM, pady=10)
 
