@@ -49,7 +49,6 @@ def animate_typing(text):
             time.sleep(0.0015)
     Thread(target=type_text).start()
 
-# Copy output to clipboard
 def copy_to_clipboard():
     code = bat_output.get("1.0", tk.END).strip()
     if code:
