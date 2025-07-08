@@ -80,7 +80,6 @@ def drop_handler(event):
         ps_input.delete("1.0", tk.END)
         ps_input.insert(tk.END, code)
 
-# GUI setup
 app = tk.Tk()
 app.title("⚡ PS to BAT - Futuristic Converter")
 app.geometry("1100x900")
