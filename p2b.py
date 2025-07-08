@@ -81,7 +81,7 @@ def drop_handler(event):
         ps_input.insert(tk.END, code)
 
 app = tk.Tk()
-app.title("⚡ PS to BAT - Futuristic Converter")
+app.title("⚡ PS to BAT - Powershell to Batch Converter")
 app.geometry("1100x900")
 app.config(bg="#000010")
 
