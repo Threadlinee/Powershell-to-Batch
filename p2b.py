@@ -95,7 +95,6 @@ except:
 heading = tk.Label(app, text="⚡ PowerShell → Batch Converter", font=("Orbitron", 28, "bold"), bg="#000010", fg="#00ffff")
 heading.pack(pady=25)
 
-# PowerShell input
 input_frame = tk.Frame(app, bg="#000010")
 input_frame.pack(fill=tk.BOTH, padx=20, pady=(0, 10), expand=True)
 
