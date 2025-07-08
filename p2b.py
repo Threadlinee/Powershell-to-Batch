@@ -40,7 +40,6 @@ def convert():
     bat_output.delete("1.0", tk.END)
     animate_typing(bat_code)
 
-# Animate typing in output box
 def animate_typing(text):
     bat_output.delete("1.0", tk.END)
     def type_text():
