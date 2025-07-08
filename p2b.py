@@ -55,7 +55,6 @@ def copy_to_clipboard():
         pyperclip.copy(code)
         messagebox.showinfo("Copied", "Batch code copied to clipboard!")
 
-# Copy input to clipboard
 def copy_input():
     code = ps_input.get("1.0", tk.END).strip()
     if code:
