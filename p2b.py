@@ -31,7 +31,6 @@ def convert_ps_to_bat(ps_code):
         ]
     return "\n".join(bat_lines)
 
-# Convert button logic
 def convert():
     ps_code = ps_input.get("1.0", tk.END).strip()
     if not ps_code:
