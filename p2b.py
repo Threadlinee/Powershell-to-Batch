@@ -112,7 +112,6 @@ ps_input.pack(fill=tk.BOTH, expand=True)
 
 tk.Button(app, text="⚙️ Convert to .BAT", command=convert, bg="#ff0066", fg="white", padx=30, pady=14, font=("Orbitron", 14, "bold"), relief=tk.FLAT).pack(pady=25)
 
-# Batch output
 output_frame = tk.Frame(app, bg="#000010")
 output_frame.pack(fill=tk.BOTH, padx=20, pady=(0, 10), expand=True)
 
