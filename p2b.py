@@ -61,7 +61,6 @@ def copy_input():
         pyperclip.copy(code)
         messagebox.showinfo("Copied", "PowerShell code copied to clipboard!")
 
-# Save batch file
 def save_to_file():
     code = bat_output.get("1.0", tk.END).strip()
     if not code:
