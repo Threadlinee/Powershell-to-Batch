@@ -72,7 +72,6 @@ def save_to_file():
             f.write(code)
         messagebox.showinfo("Saved", f"Batch file saved to:\n{file_path}")
 
-# Load file on drop
 def drop_handler(event):
     file_path = event.data.strip('{}')
     if os.path.isfile(file_path):
