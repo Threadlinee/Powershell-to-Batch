@@ -110,7 +110,6 @@ copy_ps_btn.pack(side=tk.RIGHT, padx=6)
 ps_input = scrolledtext.ScrolledText(input_frame, height=12, bg="#1a1a2e", fg="#00ff88", insertbackground="white", font=("Consolas", 12, "bold"), bd=3, relief=tk.FLAT)
 ps_input.pack(fill=tk.BOTH, expand=True)
 
-# Convert button
 tk.Button(app, text="⚙️ Convert to .BAT", command=convert, bg="#ff0066", fg="white", padx=30, pady=14, font=("Orbitron", 14, "bold"), relief=tk.FLAT).pack(pady=25)
 
 # Batch output
