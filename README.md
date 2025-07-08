@@ -1,4 +1,4 @@
-# ⚡ PS to BAT - Futuristic Converter GUI
+# ⚡ PS to BAT - Powershell to Batch Converter
 
 This is a next-level GUI tool built in **Python** that converts raw **PowerShell** code into fully working `.bat` scripts — all with insane visuals, **animations**, drag-and-drop support, and a sleek dark hacker-style interface.
 
