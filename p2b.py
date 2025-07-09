@@ -4,7 +4,7 @@ import os
 import pyperclip
 import time
 from threading import Thread
-## niggers 
+
 def is_multiline(code):
     return "\n" in code.strip() or ";" in code
 
